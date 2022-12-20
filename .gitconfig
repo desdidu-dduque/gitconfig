@@ -1,6 +1,12 @@
 [user]
-    name = Firstname Lastname
-    email = firstname.lastname@example.com
+    name = desdidu-dduque
+    email = dduque@porvenir.com.co
+[http]
+	proxy = http://172.17.10.3:8080
+	sslverify = false
+[https]
+	proxy = http://172.17.10.3:8080
+	sslverify = false
 [alias]
     # list branches ordered by change time
     br = "!git for-each-ref --format='%(committerdate:short),%(authorname),%(refname:short)' --sort=committerdate refs/heads/ | column -t -s ','"
